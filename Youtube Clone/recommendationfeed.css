@@ -1,0 +1,67 @@
+.recommendation-feed{
+    position: absolute;
+    right: -500px;
+    display: grid;
+}
+
+.all-button{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 0;
+}
+
+.subscription-button{
+    margin-left: 10px;
+    border-radius: 10px;
+    color: rgb(15, 15, 15);
+    background-color: grey;
+    border: 0;
+}
+
+.similar-button{
+    margin-left: 10px;
+    border-radius: 10px;
+    color: rgb(15, 15, 15);
+    background-color: grey;
+    border: 0;
+}
+
+.recommendation-buttons{
+    display: grid;
+    grid-template-columns: 50px 150px 150px;
+}
+
+.other-channel-videos{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 200px 250px;
+    row-gap: 5px;
+}
+
+.other-channel-thumbnail{
+    width: 100%;
+}
+
+.other-channel-details{
+    display: grid;
+    grid-template-rows: 45px 25px 20px;
+}
+
+.other-video-title{
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.other-channel-name{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.other-channel-stats{
+    font-size: 12px;
+    margin-left: 5px;
+}
